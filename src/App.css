@@ -45,8 +45,13 @@ p {
   max-width: 320px;
 }
 
-.card--image {
+.card {
   position: relative;
+  width: 175px;
+}
+
+.card--image {
+  border-radius: 10px;
 }
 
 .card--availability {
@@ -61,13 +66,13 @@ p {
   
 }
 
-.card--rating {
+.card--stats {
   display: flex;
   align-items: center;
   gap: 5px;
 }
 
-.card--rating-lightGray {
+.card--stats-lightGray {
   color: #9a9a9a;
 }
 
