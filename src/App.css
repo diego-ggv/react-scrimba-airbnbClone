@@ -7,6 +7,10 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
+p {
+  margin: 0;
+}
+
 .section {
   padding: 30px
 }
@@ -41,7 +45,7 @@ body {
   max-width: 320px;
 }
 
-.card {
+.card--image {
   position: relative;
 }
 
@@ -50,7 +54,7 @@ body {
   top: 10px;
   left: 10px;
   z-index: 1;
-  background: #cecccc;
+  background: #e8e7e7;
   color: #000000;
   padding: 5px;
   border-radius: 5px;
@@ -61,6 +65,10 @@ body {
   display: flex;
   align-items: center;
   gap: 5px;
+}
+
+.card--rating-lightGray {
+  color: #9a9a9a;
 }
 
 .card--star {

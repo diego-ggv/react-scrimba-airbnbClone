@@ -1,10 +1,11 @@
 import React from 'react';
+import HeaderImage from '../assets/images/images-group.png'
 
 function Header() {
   return(
       <header className="section header">
         <img className="header--img"
-            src="../../public/images/images-group.png" 
+            src={HeaderImage} 
             alt="all the activities you can discover using airbnb"/>
         
         <h1 className="header--title">Online Experiences</h1>
